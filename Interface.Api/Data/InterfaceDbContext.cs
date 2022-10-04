@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Interface.Api.Data
 {
     //the class interfacedbcontext inherits from dbcontext class
+    //this is what creates thetable needed
     public class InterfaceDbContext : DbContext
     {
         public InterfaceDbContext(DbContextOptions options) : base(options)
@@ -12,5 +13,7 @@ namespace Interface.Api.Data
         }
 
         public DbSet<Employee> Employees { get; set; }
+
+        public DbSet<Users> Users { get; set; }
     }
 }

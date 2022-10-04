@@ -4,6 +4,7 @@ using Interface.Api.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Interface.Api.Migrations
 {
     [DbContext(typeof(InterfaceDbContext))]
-    partial class InterfaceDbContextModelSnapshot : ModelSnapshot
+    [Migration("20221003184128_second-migration")]
+    partial class secondmigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,9 +66,6 @@ namespace Interface.Api.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<long>("Phone")
-                        .HasColumnType("bigint");
-
-                    b.Property<long>("password")
                         .HasColumnType("bigint");
 
                     b.HasKey("Id");

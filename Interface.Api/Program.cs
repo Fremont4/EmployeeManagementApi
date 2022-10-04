@@ -1,3 +1,4 @@
+using Interface.Api.App_Repositories.EmployeeRepo;
 using Interface.Api.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,6 +10,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//Repository services registration
+builder.Services.AddTransient<IEmployeeRepo,EmployeeRepo>();
 
 //bab injecting the dependency
 

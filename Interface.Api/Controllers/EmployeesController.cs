@@ -73,7 +73,7 @@ namespace Interface.Api.Controllers
             return Ok(employee);
         }
 
-        //for viewing existence of employee in a database.
+        //for deleting employee in a database.
         [HttpDelete]
         [Route("{id:Guid}")]
         public async Task<IActionResult> DeleteEmployee([FromRoute] Guid id) {
