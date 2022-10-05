@@ -63,3 +63,6 @@ C:\Users\fremont\source\repos\Interface.Api\Interface.Api\bin\Debug\net6.0\AspNe
 C:\Users\fremont\source\repos\Interface.Api\Interface.Api\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\fremont\source\repos\Interface.Api\Interface.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\fremont\source\repos\Interface.Api\Interface.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\fremont\source\repos\Interface.Api\Interface.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\fremont\source\repos\Interface.Api\Interface.Api\bin\Debug\net6.0\package-lock.json
+C:\Users\fremont\source\repos\Interface.Api\Interface.Api\bin\Debug\net6.0\package.json
