@@ -1,16 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "yuMjPl1gGUhntwBr+7GAPyxiOW6RZ7LD+zSrIWMH5LIdhIVEg4X8S5UmvUOyI9vHKbHE+YNxDBd+NtUa7MYbbQ==",
+  "dgSpecHash": "rng3QBuE8GOoCsLqVEzJdV1f0THj8t3ltBVVyNlm5+zmV3PtLRqql8myJoSiqGjLwJlMeD8cwTO6R5ScsOzyJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\fremont\\source\\repos\\Interface.Api\\Interface.Api\\Interface.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fremont\\.nuget\\packages\\aspnetcore.mvc.routes.debuggingloggermiddleware\\1.0.0\\aspnetcore.mvc.routes.debuggingloggermiddleware.1.0.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\fremont\\.nuget\\packages\\identityserver3\\2.6.3\\identityserver3.2.6.3.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.0.0\\microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.0.0\\microsoft.aspnetcore.authentication.core.2.0.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.9\\microsoft.aspnetcore.authentication.jwtbearer.6.0.9.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.0.0\\microsoft.aspnetcore.authorization.2.0.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.0.0\\microsoft.aspnetcore.authorization.policy.2.0.0.nupkg.sha512",
+    "C:\\Users\\fremont\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.9\\microsoft.aspnetcore.cryptography.internal.6.0.9.nupkg.sha512",
+    "C:\\Users\\fremont\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.9\\microsoft.aspnetcore.cryptography.keyderivation.6.0.9.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.server.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.aspnetcore.http\\2.0.0\\microsoft.aspnetcore.http.2.0.0.nupkg.sha512",
@@ -43,6 +46,7 @@
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.0.0\\microsoft.extensions.dependencymodel.2.0.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.0.0\\microsoft.extensions.hosting.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\fremont\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.9\\microsoft.extensions.identity.core.6.0.9.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
@@ -61,6 +65,7 @@
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\fremont\\.nuget\\packages\\owin\\1.0.0\\owin.1.0.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
@@ -117,5 +122,26 @@
     "C:\\Users\\fremont\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\fremont\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'IdentityServer3 2.6.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "IdentityServer3",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Owin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

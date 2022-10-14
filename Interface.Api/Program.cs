@@ -1,3 +1,4 @@
+using IdentityServer3.Core.Services;
 using Interface.Api.App_Repositories.EmployeeRepo;
 using Interface.Api.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -5,7 +6,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-var builder = WebApplication.CreateBuilder(args);
+
+
+ var builder = WebApplication.CreateBuilder(args);
+
+
+
+
 //configure JWT
 builder.Services.AddAuthentication(opt => {
     opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

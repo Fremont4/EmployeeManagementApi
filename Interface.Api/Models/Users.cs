@@ -12,5 +12,7 @@
 
         public string Department { get; set; }
         public string password { get; set; }
+        //public string RefreshToken { get; internal set; }
+        //public DateTime RefreshTokenExpiryTime { get; internal set; }
     }
 }

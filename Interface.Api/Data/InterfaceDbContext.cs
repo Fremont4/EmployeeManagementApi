@@ -15,5 +15,12 @@ namespace Interface.Api.Data
         public DbSet<Employee> Employees { get; set; }
 
         public DbSet<Users> Users { get; set; }
+        //protected override void onModelCreation(ModelBuilder modelBuilder) {
+        //    modelBuilder.Entity<LoginModel>().HasData(new LoginModel
+        //    {
+        //        Email = '',
+        //        Password = ''
+        //    });
+        //}
     }
 }
